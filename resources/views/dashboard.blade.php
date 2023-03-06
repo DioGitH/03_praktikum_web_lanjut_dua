@@ -7,6 +7,7 @@
 @stop
 
 @section('content')
+@section('plugins.Toastr')
 
 @section('footer')
 Kelompok 1
@@ -20,5 +21,17 @@ Kelompok 1
 @section('js')
 <script>
     console.log('Hi!');
+</script>
+<script>
+    $(document).Toasts('create', {
+        title: 'Toast Title',
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.',
+        autohide: true,
+
+    })
+</script>
+
+<script>
+    toastr.success('Are you the 6 fingered man?')
 </script>
 @stop
