@@ -23,15 +23,7 @@ Kelompok 1
     console.log('Hi!');
 </script>
 <script>
-    $(document).Toasts('create', {
-        title: 'Toast Title',
-        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.',
-        autohide: true,
-
-    })
+    toastr["success"]("Selamat Datang")
 </script>
 
-<script>
-    toastr.success('Are you the 6 fingered man?')
-</script>
 @stop
