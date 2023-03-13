@@ -11,17 +11,17 @@
     {{-- Setup data for datatables --}}
 @php
 $heads = [
-    'ID',
     'Nama',
-    ['Pengalaman' => 'Phone', 'width' => 40],
+    'Pengalaman',
 ];
+
 
 $config = [
     'data' => [
-        [01, 'Maulidio Farhan Rizkullah', $pengalaman_dio[0]->pengalaman_dio],
+        [$table[0]->nama, $table[0]->pengalaman],
     ],
     'order' => [[1, 'asc']],
-    'columns' => [null, null, null],
+    'columns' => [null, null],
 ];
 @endphp
 
