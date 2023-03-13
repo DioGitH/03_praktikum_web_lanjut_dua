@@ -344,6 +344,20 @@ return [
             'icon' => 'fas fa-fw fa-anchor',
         ],
         [
+            'text' => 'Table',
+            'icon' => 'fas fa-fw fa-table',
+            'submenu' => [
+                [
+                    'text' => 'Maulidio Farhan Rizkullah',
+                    'url' => '/profile/profileDio',
+                ],
+                [
+                    'text' => 'Febrian Dani Ritonga',
+                    'url' => '/profile/profileDani',
+                ],
+            ],
+        ],
+        [
             'type'         => 'darkmode-widget',
             'topnav_right' => true, // Or "topnav => true" to place on the left.
         ],
