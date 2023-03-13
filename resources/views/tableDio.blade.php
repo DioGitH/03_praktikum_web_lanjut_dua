@@ -23,7 +23,7 @@ $config = [
         [3, 'Peter Sousa', '+69 (555) 12367345243'],
     ],
     'order' => [[1, 'asc']],
-    'columns' => [null, null, null, ['orderable' => false]],
+    'columns' => [null, null, null],
 ];
 @endphp
 
