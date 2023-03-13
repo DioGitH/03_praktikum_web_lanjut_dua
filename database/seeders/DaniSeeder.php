@@ -16,9 +16,7 @@ class DaniSeeder extends Seeder
     {
         DB::table('dani')->insert([
             'id' => '01',
-            'pengalaman_dani' => 'Di perkuliahan selama 4 semester ini saya mempelajari sangat banyak pengalaman,
-            saya yang mulanya sangat minim pengetahuan tentang teknologi dan cara kerja di belakangnya mulai terbuka
-             dan mendapatkan teman sekelas yang sehobi sehingga meningkatkan semangat belajar.'
+            'pengalaman_dani' => 'Di perkuliahan selama 4 semester ini saya mempelajari sangat banyak pengalaman,saya yang mulanya sangat minim pengetahuan tentang teknologi dan cara kerja di belakangnya mulai terbuka dan mendapatkan teman sekelas yang sehobi sehingga meningkatkan semangat belajar.'
             ]);
     }
 }

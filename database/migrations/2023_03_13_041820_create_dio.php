@@ -13,9 +13,9 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('Dio', function (Blueprint $table) {
+        Schema::create('dio', function (Blueprint $table) {
             $table->id();
-            $table->string('pengalaman_dio', 150)->index();
+            $table->string('pengalaman_dio', 1500)->index();
         });
     }
 
@@ -26,6 +26,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('Dio');
+        Schema::dropIfExists('dani');
     }
 };
