@@ -23,4 +23,5 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/dashboard', [App\Http\Controllers\DashboardController::class, 'index'])->name('dashboard');
 Route::get('/pengalaman', [App\Http\Controllers\PengalamanController::class, 'pengalamanKuliah'])->name('pengalaman');
 Route::get('/profile/{name}', [App\Http\Controllers\ProfileController::class, 'profil']);
+Route::get('/table/{name}', [App\Http\Controllers\TableController::class, 'table']);
 

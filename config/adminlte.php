@@ -349,11 +349,11 @@ return [
             'submenu' => [
                 [
                     'text' => 'Maulidio Farhan Rizkullah',
-                    'url' => '/profile/profileDio',
+                    'url' => '/table/tableDio',
                 ],
                 [
                     'text' => 'Febrian Dani Ritonga',
-                    'url' => '/profile/profileDani',
+                    'url' => '/table/tableDani',
                 ],
             ],
         ],
