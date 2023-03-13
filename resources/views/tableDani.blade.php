@@ -3,7 +3,7 @@
 @section('title', 'Dashboard')
 
 @section('content_header')
-<h1>Table Dani</h1>
+<h1>Table Dio</h1>
 @stop
 
 @section('content')
@@ -18,9 +18,7 @@ $heads = [
 
 $config = [
     'data' => [
-        [22, 'John Bender', '+02 (123) 123456789'],
-        [19, 'Sophia Clemens', '+99 (987) 987654321'],
-        [3, 'Peter Sousa', '+69 (555) 12367345243'],
+        [01, 'Febrian Dani Ritonga', $pengalaman_dani[0]->pengalaman_dani ],
     ],
     'order' => [[1, 'asc']],
     'columns' => [null, null, null],
