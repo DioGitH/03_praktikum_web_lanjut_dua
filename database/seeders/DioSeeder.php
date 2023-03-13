@@ -17,7 +17,7 @@ class DioSeeder extends Seeder
         //
         DB::table('dio')->insert([
             'id' => '01',
-            'pengalaman_dio' => 'selama di perkuliahan, saya mempelajari banyak hal mulai dari belajar pemrograman. berorganisasi hingga belajar hal hal kecil seperti ke disiplinan dll'
+            'pengalaman_dio' => 'selama di perkuliahan, saya mempelajari banyak bahasa pemrograman.'
             ]);
     }
 }
