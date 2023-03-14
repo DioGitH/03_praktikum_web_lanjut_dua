@@ -9,5 +9,5 @@ class TableDio extends Model
 {
     use HasFactory;
 
-    protected $table_dio = 'tableDio';
+    protected $tableDio = 'table_dios';
 }
