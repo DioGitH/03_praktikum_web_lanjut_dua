@@ -14,6 +14,11 @@ class TableDioController extends Controller
     //                         ->get();
     //     return view('tableDio', compact('pengalaman_dio'));
     // }
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+    
     public function index()
     {
         $table = TableDio::all();
